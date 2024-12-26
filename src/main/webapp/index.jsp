@@ -1,5 +1,5 @@
 <html>
-<body style="color: Pink;">
+<body style="color: Red;">
 <h1><font color="Blue">RadhaKrishna </font></h1>
 
 <h2>Hare Rama Hare Rama</h2>
