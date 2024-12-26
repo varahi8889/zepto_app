@@ -1,6 +1,7 @@
 <html>
 <body>
-<h1><font colors'Blue'>RadhaKrishna  <font></h1>
+<h1><font color="BlueGreen">RadhaKrishna </font></h1>
+
 <h2>Hare Rama Hare Rama</h2>
 <h2>Rama Rama Hare Hare</h2>
 <h2>Hare Krishna Hare Krishna</h2>
