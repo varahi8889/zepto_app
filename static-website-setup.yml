@@ -7,7 +7,7 @@
     - name: install httpd package
       yum:
         name: httpd
-        state: present
+        state: latest
     - name: copy index.html file
       copy:
         src: index.html
@@ -17,6 +17,5 @@
         name: httpd
         state: started
 ...
-
 
 
