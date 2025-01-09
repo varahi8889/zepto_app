@@ -1,9 +1,11 @@
 # Write a playbook to install httpd, copy index.html and start httpd server
 - hosts: all
   become: true
+  vars:
+    ansible_python_interpreter: /usr/bin/python3
   tasks:
     - name: install httpd package
-      yum:
+      dnf:
         name: httpd
         state: latest
     - name: copy index.html file
@@ -11,7 +13,8 @@
         src: index.html
         dest: /var/www/html/index.html
     - name: start httpd service
-      service: 
-        name: httpd 
+      service:
+        name: httpd
         state: started
-...    
+...
+
